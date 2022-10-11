@@ -10,7 +10,10 @@ import turtle
 
 t = turtle.Turtle()
 
-for c in ['red', 'green', 'blue', 'yellow']:
-    t.color(c)
-    t.circle(75)
-    t.left(90)
+t.goto(0,100)
+t.forward(200)
+t.left(90)
+t.color("red")
+t.forward(100)
+t.right(120)
+t.forward(100)
